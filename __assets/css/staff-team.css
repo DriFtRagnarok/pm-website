@@ -1,0 +1,33 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body{
+    background:#111B3B;
+    overflow-x:hidden;
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+}
+
+.body-content{
+    padding:400px;
+    padding-top:200px;
+    color:white;
+    text-align:center;
+}
+
+.body-content img{
+    border-radius:50%;
+}
+
+.closed{
+    color:red;
+}
+
+.open{
+    color:green;
+}

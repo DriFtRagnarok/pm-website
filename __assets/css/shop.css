@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#111B3B;
+    font-family: "Serpentine-Medium";
+    overflow-x:hidden;
+    color:white;
+}
+
+.body-content{
+    display:flex;
+    margin-top:200px;
+    justify-content:center;
+}
+
+.listing{
+    text-align:center;
+    padding:20px;
+    border:2px solid transparent;
+    border-radius:40px;
+}
+
+.listing img{
+    width:500px;
+    border-radius:10px;
+}
+
+.listing a{
+    text-decoration:none;
+    color:white;
+}
+
+.listing:hover{
+    border:2px solid white;
+}

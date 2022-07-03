@@ -1,0 +1,35 @@
+body{
+    background:#111B3B;
+    overflow-x:hidden;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.body-content{
+    color:white;
+    padding-top:20vh;
+    overflow-x:hidden;
+}
+
+.content-wrapper{
+    padding-left:50px;
+    padding-right:50px;
+}
+
+
+.body-content a{
+    color:white;
+    text-decoration:underline;
+}
+
+li{
+    list-style-type:circle;
+    overflow-x:hidden;
+}
+
+h1{
+    text-align:center;
+}

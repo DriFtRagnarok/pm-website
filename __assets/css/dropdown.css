@@ -1,0 +1,50 @@
+.dropbtn{
+    background:none;
+    text-decoration:underline;
+    color:white;
+    font-size:15px;
+    border:none;
+}
+
+.dropbtn:hover{
+    cursor:pointer;
+}
+
+.dropdown{
+    position:relative;
+    display:inline-block;
+}
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background:none;
+    min-width:160px;
+    text-align:center;
+    z-index:1;
+}
+
+.dropdown-content a{
+    color:white;
+    text-decoration:underline;
+    display:block;
+    padding:12px;
+}
+
+.dropdown:hover{
+    cursor:pointer;
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+    background:#1E212C;
+}
+
+.about .dropdown-content{
+    margin-left:-60px;
+    padding-top:25px;
+}
+
+.shop .dropdown-content{
+    margin-left:-60px;
+}
